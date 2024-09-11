@@ -1,0 +1,14 @@
+function OpcoesHeader() {
+    return (
+        <ul className='opcoes'>
+          {textOpcoes.map((texto) => (
+            <li><p>{texto}</p></li>
+          ) ) }
+           {icones.map ((icone) => (
+            <li><img src={icone}></img></li>
+          ))}
+           
+
+        </ul>
+    )
+}

@@ -1,0 +1,9 @@
+.logo{
+    display:flex;
+    font-size:1.75rem;
+    padding:1vw;
+  }
+
+  .logo-img{
+    margin-right: 10px;
+  }
