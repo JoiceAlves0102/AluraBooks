@@ -1,22 +1,13 @@
 import './App.css';
-import Logo from "./componentes/Logo";
-import OpcoesHeader from './componentes/opcoesHeader';
-import opcoes from './componentes/opcoesHeader';
-import perfil from './imagens/perfil.svg';
-import sacola from './imagens/sacola.svg';
+
+import Header from './componentes/Header';
 
 
-
-const textOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
-const icones = [perfil, sacola]
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <Logo></Logo>
-        <OpcoesHeader></OpcoesHeader>
-      </header>
+      <Header/>
     </div>
   );
 }

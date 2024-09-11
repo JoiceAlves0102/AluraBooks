@@ -1,0 +1,6 @@
+.App-header {
+    background-color: #f0f8ff;
+    display: grid;
+    grid-template-columns: 20% 70% 25%;
+    align-items: center;
+}
